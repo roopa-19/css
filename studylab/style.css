@@ -1,0 +1,77 @@
+
+@media screen and (min-width: 480px) {
+    
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    
+    height:80px;
+    padding-left: 30px;
+    box-shadow: 2px 2px rgb(229, 229, 237);
+}
+header h2{
+    background-image:linear-gradient(to right,rgb(181, 70, 181), rgb(60, 103, 246)
+    );
+    color: white;
+    padding: 0px 30px 0px 30px;
+}
+nav{
+    width:40%;
+    display:flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    align-items:start;
+    color:black;
+    font-size: large;
+   
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+section{
+    width:40%;
+}
+#para h5{
+    color: rgb(141, 15, 219);
+}
+#para{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+}
+img{
+    width:80px;
+    height:80px;
+}
+#para{
+    margin-top: 40px;
+    width:30%;
+}
+#services{
+    margin-top: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    column-gap:20px;
+    row-gap: 20px;
+    
+}
+iframe{
+    width: 200px;
+    height:150px;
+}
+#video{
+    display:flex;
+    align-items:center ;
+}
+#services div{
+    width:35%;
+    height:290px;
+    box-shadow: inset 2px 2px 1px gainsboro,2px 2px 1px gainsboro;
+    padding-left:10px;
+
+}
+}
